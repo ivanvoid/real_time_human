@@ -2,6 +2,7 @@ import os
 import cv2
 from PIL import Image
 
+
 def save_point(x,y,id, cfg):
     name = ('00000000' + str(id))[-6:] + '.png'
     path = cfg.data_path + 'annotations.csv'
